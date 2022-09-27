@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <main id="tip-calculator-wrapper">
+      <div class="app-logo">
+        <img src="images/logo.svg" alt="splitter-log" />
+      </div>
+
+      <div class="calculator-container">
+        <div class="calculator-form">
+          <form class="calculatorForm">
+            <div class="form-group">
+              <label for="bill" aria-label="Bill">Bill</label>
+              <div class="input-group">
+                <img
+                  src="./images/icon-dollar.svg"
+                  width="100%"
+                  alt="icon-dollar"
+                />
+                <input
+                  type="number"
+                  placeholder="0.00"
+                  class="form-control bill-input"
+                  id="bill"
+                  value="0"
+                />
+              </div>
+            </div>
+
+            <div class="tip-percentages-section">
+              <h6>Select Tip %</h6>
+
+              <div class="tip-list"></div>
+            </div>
+
+            <div class="form-group">
+              <div class="label-group">
+                <label for="peopleNo" aria-label="Number of People"
+                  >Number of People</label
+                >
+                <span class="error-message"></span>
+              </div>
+
+              <div class="input-group">
+                <img src="./images/icon-person.svg" alt="icon-person" />
+                <input
+                  type="number"
+                  placeholder="0"
+                  class="form-control noOfPeople"
+                  id="peopleNo"
+                  value=""
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="calculator-output">
+          <div>
+            <section class="amount-result tip-result">
+              <div>
+                <h3>Tip Amount</h3>
+                <span>/ person</span>
+              </div>
+
+              <h1>$0.00</h1>
+            </section>
+            <section class="amount-result total-result">
+              <div>
+                <h3>Total</h3>
+                <span>/ person</span>
+              </div>
+
+              <h1>$0.00</h1>
+            </section>
+          </div>
+
+          <div class="reset-button-section">
+            <button type="button" class="reset-button" role="button">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

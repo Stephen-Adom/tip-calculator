@@ -1,0 +1,17 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "Responsive tip calculator app",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "gulp"
+  },
+  "author": "alaska",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}
