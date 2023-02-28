@@ -1,38 +1,47 @@
-# Frontend Mentor - Tip calculator app solution
+<a name="readme-top"></a>
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+<div align="center">
+  <h1><b>Tip Calculator</b></h1>
 
-## Table of contents
+</div>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+<!-- TABLE OF CONTENTS -->
+
+## 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Overview
+<!-- PROJECT DESCRIPTION -->
 
-### The challenge
+## 📖 Project Overview <a name="about-project"></a>
 
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
+A full responsive javascript app which calculates tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip
 
 ### Screenshot
 
-![](./screenshot.png)
+![Deskop View 1](./screenshot.png)
 
-### Links
+### 🛠 Built With <a name="built-with"></a>
 
-- Live Site URL: [View Demo](https://stephen-adom.github.io/tip-calculator)
-
-## My process
-
-### Built with
+#### Tech Stack <a name="tech-stack"></a>
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -42,8 +51,134 @@ Users should be able to:
 - Mobile-first workflow
 - Javascript
 
-## Author
+<!-- Features -->
 
-- Website - [Stephen Addom Addae](https://stephen-adom.github.io/tip-calculator)
+### Key Features <a name="key-features"></a>
+
+- **Tip Amount**
+- **Total Amount**
+
+<!-- GETTING STARTED -->
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Here is a link to my project. You can view to show the output so far.
+
+- [Live Demo Link](https://stephen-adom.github.io/tip-calculator)
+
+# 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com/Stephen-Adom/rock-paper-scissor-lizard-spock-game.git
+```
+
+-
+
+### Install
+
+Install this project with:
+
+Example command:
+
+<!--
+```sh
+  cd my-project
+  npm install
+```
+--->
+-
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+```sh
+  npm run start
+```
+--->
+
+-
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 👥 Authors <a name="authors"></a>
+
+👤 **Stephen Addae**
+
+- GitHub: [@Stephen-Adom](https://github.com/Stephen-Adom)
+- Twitter: [@stephen_alaska](https://twitter.com/stephen_alaska)
+- LinkedIn: [Stephen Addae](https://www.linkedin.com/in/stephen-addae-a32334154/)
 - Frontend Mentor - [@Stephen-Adom](https://www.frontendmentor.io/profile/Stephen-Adom)
-- Twitter - [@Alaska67524884](https://twitter.com/Alaska67524884)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Profile Page**
+- [ ] **Registration Page**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please provide suggestions to help improve this project
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for guidance and knowledge on flexbox
+
+I would also like to thank [Frontend Mentor](https://www.frontendmentor.io/) for providing the project for me to work on
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
