@@ -33,7 +33,7 @@
 
 ## 📖 Project Overview <a name="about-project"></a>
 
-A full responsive javascript app which calculates tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip
+The tip calculator app project is a mobile-first web-based application that helps users quickly and accurately calculate tips. Built using JavaScript, the project offers a simple and user-friendly interface. Users can input the total cost of the meal and select a percentage tip to calculate the total tip amount and the final cost of the meal. The application also features a split bill option, which allows users to divide the total cost of the meal among multiple people. The project is optimized for mobile devices, making it easy for users to access and use the application on their smartphones or tablets.
 
 ### Screenshot
 
