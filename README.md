@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com/Stephen-Adom/rock-paper-scissor-lizard-spock-game.git
+  git clone git@github.com/Stephen-Adom/tip-calculator.git
 ```
 
 -
